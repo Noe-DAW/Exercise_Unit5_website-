@@ -1,0 +1,4 @@
+#Ignora estos archivos innecesarios que no deben aparecer en el repositorio. 
+
+.vscode/ 
+.DS_Store
