@@ -1,40 +1,70 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web</title>
     <link rel="stylesheet" href="styles.css"> 
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        
+        #Proyectos {
+            border: 3px solid red; 
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f9f9f9; 
+            color: #333;
+        }
+
+        
+        #Proyectos h2 {
+            color: #b22222; 
+            font-size: 1.5em;
+        }
+
+        #Proyectos p {
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <img src="images.png" alt="un lugar para reunirse">
 
-        <h1>Bienvenidos a Mi Página Web</h1>
+    <img src="images.png" alt="un lugar para reunirse">
+    
+    <h1>Bienvenidos a Mi Página Web</h1>
   
-        <div id="nav">
-            
+    <div id="nav">
         
-                <a href="#inicio">Inicio</a>
-                <a href="#sobre-mi">Sobre Mí</a>
-                <a href="#contacto">Contacto</a>
-            
-        </div>
+    </div>
 
     <section id="inicio">
         <h2>Inicio</h2>
-        <p>Esta es una página web de ejemplo. Aquí puedes incluir una breve introducción.</p>
+        <p>En esta parte se añadirán datos de la empresa y de lo que estamos haciendo actualmente para que aparezcan al principio de la página.</p>
     </section>
 
     <section id="sobre-mi">
         <h2>Sobre Mí</h2>
-        <p>Una sección para presentarte. Puedes escribir un poco sobre quién eres y qué haces.</p>
+        <p>Conocerás al cien por cien sobre la empresa y cuales son nuestros objetivos de ahora en adelante. Podrás saber cómo hemos logrado todo esto y cuales han sido las estrategias utilizadas.</p>
+    </section>
+
+    <section id="Proyectos">
+        <h2>Proyectos</h2>
+        <p>Te sumergirás en nuestros proyectos y podrás ver códigos utilizados y mucho más.</p>
     </section>
 
     <footer>
         <p id="Información-de-contacto">Información de contacto</p>
         <p>Compañía: Tu tienda de informática</p>
-        <p>Correo electrónico: <a href="mailto:info@tutiendadeinformatica.com">info@tutiendadeinformatica.com</a></p>
+        <p>Correo electrónico o a través del formulario de contacto que verás más abajo: <a href="mailto:info@tutiendadeinformatica.com">info@tutiendadeinformatica.com</a></p>
     </footer>
-    
+
 </body>
 </html>
